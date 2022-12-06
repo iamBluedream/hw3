@@ -1,0 +1,135 @@
+#tu{
+  position: relative;  
+  margin-left: 200px;
+}
+h1{font-size: 32px;
+  color: white; 
+  position:absolute;
+  top:200px;  
+  left:100px;
+
+}                 
+#qi{
+      display:block;
+width: 100%; 
+      height: 300px;
+      border: none;
+      overflow: hidden;
+   }
+ 
+   .nav{
+    margin-left: 100px;
+    height: 40px;
+    background-color: rgb(241, 163, 189);
+    box-shadow: 0px 1px 2px #666;
+    position: relative;
+            }
+            *{
+                margin: 0;
+                padding: 0;
+                text-decoration: none;
+                list-style: none;
+            }
+            .li{
+                float:left ;
+                width: 100px;
+                height: 40px;
+                text-align: center;
+                line-height: 40px;
+            }
+            .li a {display: block;
+                color: rgb(145, 86, 213);
+             
+            }
+            .li a:hover{
+                background-color: rgb(234, 10, 47);
+            }
+            .dr{
+                background: #eee;
+                box-shadow:0px 1px 2px #666;
+                display: none;
+            }
+            .li:hover .dr{
+                display: block;
+            }
+            .dr li{
+                border-top: 1px solid #ccc;
+            }
+            .shell {
+              width: 100px;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              flex-direction: column;
+              border-radius: 10px;
+              transition: .3s;
+              position: fixed;
+           flex-direction: column;
+           flex-wrap: nowrap;
+           align-content: center;
+           justify-content: flex-start;
+}
+
+  
+          .box {
+              display: block;
+              height: 15%;
+              width: 85%;
+              margin: 9px;
+              border-radius: 5px;
+              position: relative;
+              transition: .3s;
+              color: rgb(157, 236, 239);
+          }
+          .box i {
+              font-size: 60px;
+              position: absolute;
+              margin: 7px 0 0 13px;
+          }
+   .box span{
+              position: relative;
+              top: 22px;
+              left: 80px;
+              font: 500 20px '';
+              opacity: 0;
+              transition: .1s;
+          }
+          .shell:hover{
+              width: 270px;
+              
+          }
+          
+        .shell:hover~div{
+            margin-left: 270px;
+            transition: .3s;
+            
+        }
+   
+        
+          .shell:hover span{
+              opacity: 1;
+          }
+          .box:hover{
+              color: #fff;
+          }
+  
+          .shell {
+              background-color: rgb(243, 244, 246);
+          }
+          .shell .box:hover{
+              background-color: rgb(209, 213, 219);
+              color: rgb(241, 159, 159);
+          }
+          footer{
+            background-color:rgb(148, 228, 231);
+           text-align: center;
+          }
+          #time{
+            color: azure;
+            font-size: 35px ;
+           text-align: center;
+           position: relative;
+           }
+         
+     
